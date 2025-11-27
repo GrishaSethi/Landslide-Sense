@@ -126,6 +126,7 @@ curl -X POST -F "location=Darjeeling" http://localhost:5000/predict
 - Satellite imagery with multiple spectral bands
 - Topographical data (elevation, slope)
 - Geological and soil composition data
+- Real-time satellite data integration
 
 ### Output
 
@@ -142,7 +143,6 @@ curl -X POST -F "location=Darjeeling" http://localhost:5000/predict
 
 ## 🔮 Future Enhancements
 
-- Real-time satellite data integration
 - Multi-temporal analysis for change detection
 - Ensemble modeling for improved accuracy
 - Mobile application integration
