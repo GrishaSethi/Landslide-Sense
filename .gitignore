@@ -1,0 +1,77 @@
+# OS artifacts
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Python
+_pycache_/
+*.py[cod]
+*.pyd
+*.pyo
+*.so
+*.dylib
+*.egg-info/
+*.egg
+*.eggs/
+*.log
+*.tmp
+*.sqlite3
+.env
+.env.*
+.envrc
+venv/
+.venv/
+ENV/
+env/
+.pytest_cache/
+.mypy_cache/
+.cache/
+.hypothesis/
+.tox/
+.coverage
+coverage.xml
+htmlcov/
+.ipynb_checkpoints/
+
+# Build artifacts
+build/
+dist/
+
+# Data/model artifacts
+models/
+Pre_train_model/
+data/
+dataset/
+sample_data/
+tmp/
+temp/
+.kaggle/
+*.h5
+*.hdf5
+*.ckpt
+*.pb
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.npy
+*.npz
+
+# Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.eslintcache
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/pnpm-debug.log*
+frontend/.DS_Store
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo

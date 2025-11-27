@@ -1,0 +1,13 @@
+fastapi>=0.104.0
+pydantic>=2.0.0
+uvicorn
+numpy
+h5py
+Pillow
+requests
+geopy
+tensorflow
+scikit-learn
+joblib
+matplotlib
+kagglehub
