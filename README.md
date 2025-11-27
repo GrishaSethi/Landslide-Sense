@@ -10,6 +10,7 @@ This project provides a backend service for predicting landslide susceptibility 
 - **Supported Models:**
   - U-Net
   - DeepLabV3+
+  - Ensemble modeling for improved accuracy
 - **Comprehensive Output:**
   - Risk classification (Low/Medium/High)
   - Segmented heatmap (.png visualization)
@@ -144,7 +145,6 @@ curl -X POST -F "location=Darjeeling" http://localhost:5000/predict
 ## 🔮 Future Enhancements
 
 - Multi-temporal analysis for change detection
-- Ensemble modeling for improved accuracy
 - Mobile application integration
 - Historical landslide database correlation
 
